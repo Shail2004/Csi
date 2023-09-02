@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background: #481cb4;
+    margin: 0px;
+    /* margin-left: 20px; */
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background-color: #481cb4;    
+}
+li{
+    display: inline;
+}
+#left{
+    float: right;
+}
+#logo{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    width: 125px;
+    height: 50px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.links{
+    margin-right: 4rem;
+    display: flex;
+}
+#head1{
+    position: sticky;
+}
+#head1:hover{
+    padding: 7px;
+    background-color:red;
+}
+#head2:hover{
+    padding: 7px;
+    background-color: red;
+}
+#head3:hover{
+    padding: 7px;
+    background-color: red;
+}
+#head4:hover{
+    padding: 7px;
+    background-color: red;
+}
+#head5:hover{
+    padding: 7px;
+    background-color: red;
+}
+#head6:hover{
+    padding: 7px;
+    background-color: red;
+}
+.text{
+    color: white;
+}
+.big-text{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding: 20px;
+}
+p{
+    padding: 20px;
+}
+#phone{
+    height: 550px;
+    width: 400px;
+    float: right;
+    padding: 0px;
+}
+.secondpg{
+    background-color: #F8F5FF;
+}
+.Head2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-content{
+    margin-left: 200px;
+}
+.right-content{
+    margin-right: 200px;
+}
+#right{
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-content p{
+    text-align: left;
+}
+#left{
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-content p{
+    text-align: right;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left-icons{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    justify-content: space-evenly;
+}
+.right-icons{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: space-evenly;
+}
+.right-feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.centre-image{
+    padding-top: 10px;
+}
+
+/* Third page */
+
+.thirdpg{
+    margin-left: 150px;
+    margin-right: 140px;
+}
+.rev{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Reviews{
+    display: flex;
+}
+.Person-1{
+    padding-right: 15px;
+}
+.Person-2{
+    padding-right: 15px;
+}
+.name{
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.company{
+    color: grey;
+    text-align: center;
+    padding: 0;
+}
+.star{
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+}
+.profile-1{
+    margin-left: 140px;
+}
+.profile-2{
+    margin-left: 130px;
+}
+.profile-3{
+    margin-left: 150px;
+}
+.info{
+    padding: 0;
+    color: rgb(94, 89, 89);
+}
+
+/* footer */
+
+.footer{
+    background-color: #481cb4;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 1350px;
+    height: 200px;
+    padding-top: 130px;
+}
+.question{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+.mail{
+    padding-right: 40px;
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.phone-no{
+    padding-top: 10px;
+    padding-left: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
